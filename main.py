@@ -2,5 +2,6 @@ def main():
   return "hello world"
 
 print(
-  main()
+  main(),
+  "from my push"
 )
