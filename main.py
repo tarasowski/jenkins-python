@@ -7,5 +7,5 @@ def handler(event, ctx):
 print(
   main(),
   "from my push",
-  handler({"message": "this is my jenkins test"}, None)
+  handler({"message": "this is my jenkins test, now from my container"}, None)
 )
